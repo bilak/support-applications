@@ -9,7 +9,6 @@ import java.nio.channels.ReadableByteChannel;
 import java.nio.file.Files;
 import java.util.Collection;
 import java.util.Collections;
-import java.util.List;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
@@ -26,7 +25,7 @@ import com.github.bilak.zipcodes.slovak.persistence.model.Obec;
 import com.github.bilak.zipcodes.slovak.persistence.model.Ulica;
 import com.github.bilak.zipcodes.slovak.persistence.repository.CityRepository;
 import com.github.bilak.zipcodes.slovak.persistence.repository.StreetRepository;
-import com.github.bilak.zipcodes.slovak.util.ExcelReader;
+import com.github.bilak.zipcodes.util.ExcelReader;
 import lombok.extern.slf4j.Slf4j;
 
 /**

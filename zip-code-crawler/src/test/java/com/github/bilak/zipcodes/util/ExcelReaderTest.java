@@ -1,6 +1,6 @@
-package com.github.bilak.zipcodes.slovak.util;
+package com.github.bilak.zipcodes.util;
 
-import static com.github.bilak.zipcodes.slovak.util.ExcelReader.asString;
+import static com.github.bilak.zipcodes.util.ExcelReader.asString;
 import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.assertThat;
 

@@ -1,4 +1,4 @@
-package com.github.bilak.zipcodes.slovak;
+package com.github.bilak.zipcodes;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.CommandLineRunner;

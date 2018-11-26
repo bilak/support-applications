@@ -1,4 +1,4 @@
-package com.github.bilak.zipcodes.slovak.util;
+package com.github.bilak.zipcodes.util;
 
 import java.io.BufferedInputStream;
 import java.io.File;
