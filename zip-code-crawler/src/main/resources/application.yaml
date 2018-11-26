@@ -1,0 +1,15 @@
+logging:
+  level.com.github.bilak: DEBUG
+spring:
+  datasource:
+    url: jdbc:h2:file:./.database/zipcodecrawler;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE;AUTO_SERVER=TRUE
+  h2:
+    console:
+      enabled: true
+  jpa:
+    hibernate:
+      ddl-auto: create
+zip-code-crawler:
+  run-on-startup: true
+  sk-download-url: https://www.posta.sk/subory/322/psc-obci-a-ulic.zip
+  #sk-download-cron: 0 0/1 * * * *

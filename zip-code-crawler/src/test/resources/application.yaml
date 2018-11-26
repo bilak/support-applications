@@ -1,0 +1,11 @@
+logging:
+  level.com.github.bilak: DEBUG
+spring:
+  datasource:
+    url: jdbc:h2:mem:test
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+
+zip-code-crawler:
+  run-on-startup: false
