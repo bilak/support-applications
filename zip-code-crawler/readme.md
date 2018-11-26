@@ -1,4 +1,4 @@
-#ZIP Code crawler service
+# ZIP Code crawler service
 
 Used to grab zip codes from providers and expose them as simple rest service which can be queried.
 
